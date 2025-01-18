@@ -102,7 +102,8 @@ class _IncomeTrasactionScreenState extends State<IncomeTrasactionScreen> {
                   subtitle: Text(row.description),
                   trailing: Text(row.date),
                 ));
-          }),
-    );
-  }
+            }),
+          );
+     }
+
 }
