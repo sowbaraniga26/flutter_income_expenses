@@ -10,4 +10,8 @@ class Constants  {
 
   static const String ADD_TRANSACTION = '/v2/transactions';
 
+  static const String SINGLE_TRANSACTION_ROUTE = "/v2/transactions/{id}";
+
+  static const String UPDATE_TRANSACTION_ROUTE = "/v2/transactions/{id}";
+
 }
